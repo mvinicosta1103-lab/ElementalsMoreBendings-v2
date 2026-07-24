@@ -1,0 +1,8 @@
+plugins {
+    id 'java'
+}
+
+dependencies {
+    compileOnly "net.fabricmc:yarn:${project.yarn_mappings}:v2"
+    compileOnly "com.mojang:minecraft:${project.minecraft_version}"
+}

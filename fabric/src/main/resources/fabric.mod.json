@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "elementalsmorebendings",
+  "version": "${version}",
+  "name": "Elementals: More Bendings",
+  "description": "Addon para o mod Elementals adicionando sub-bendings de Gas, Plant, Mud e Crystal (Fabric & NeoForge).",
+  "authors": [
+    "YourName"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.elementals.morebendings.fabric.ElementalsMoreBendingsFabric"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.21.1",
+    "java": ">=21"
+  }
+}

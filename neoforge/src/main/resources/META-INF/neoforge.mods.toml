@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="MIT"
+
+[[mods]]
+modId="elementalsmorebendings"
+version="${file.jarVersion}"
+displayName="Elementals: More Bendings"
+description="Addon para o mod Elementals adicionando sub-bendings de Gas, Plant, Mud e Crystal."
+authors="YourName"
+
+[[dependencies.elementalsmorebendings]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.elementalsmorebendings]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1,1.22)"
+    ordering="NONE"
+    side="BOTH"
